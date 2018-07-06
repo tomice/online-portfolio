@@ -1,0 +1,185 @@
+/* General padding */
+.intro {
+  padding-bottom: 25px;
+}
+
+.education {
+  padding-bottom: 25px;
+}
+
+.experience {
+  padding-bottom: 25px;
+}
+
+/* Navbar */
+.navbar-custom {
+  background-color: #327cc0;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  text-decoration: none; 
+  color: #ffffff;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  text-decoration: none; 
+  color: #ffffff;
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom  {
+  text-decoration: none;  
+  color: #ffffff;
+}
+
+.nav-item .nav-link:hover {
+  text-decoration: none; 
+  color: #3193de;
+}
+
+.navbar-custom .dropdown-menu {
+  background-color: #3193de;
+}
+
+.navbar-custom .dropdown-item {
+  text-decoration: none; 
+  color: #ffffff;
+}
+
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus {
+  text-decoration: none; 
+  background-color:#3193de;
+}
+
+.navbar-header .navbar-toggler {
+  border: 0;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* Retain uniform button sizes */
+.btn-primary {
+  margin-bottom: 5px;
+  min-width: 140px;
+}
+
+/* Customizing H2s and line */
+h2 {
+  line-height: 43px; 
+}
+
+h2:after {
+  content: ' ';
+  display: block;
+  border: 1px solid #327cc0; 
+}
+
+/* Footer */
+footer {
+  text-align: center; 
+}
+
+footer:before {
+  display: block;
+  border: 1px solid #c4c8cc;
+  content: ' '; 
+}
+
+/* Navbar link padding */
+a.anchor {
+  display: block;
+  position: relative;
+  top: -60px;
+  visibility: hidden;
+}
+
+/* Icon heading */
+.icon-small i {
+  float: left;
+  margin-right: 0px;
+  height: 38px;
+  width: 38px;
+  color: #327cc0;
+  background-color: #ffffffff;
+  border-radius: 10%;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 9px;
+  font-size: 30px; }
+
+.icon-small + p {
+  clear: left;
+  margin-top: 15px; 
+}
+
+.icon-small h2,
+.icon-small h3 {
+  text-align: left; 
+}
+
+/* Progress bar */
+.skillbars {
+  margin-left: 10px;
+  padding-bottom: 25px;
+}
+
+.progress-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+  margin: 0 0 30px; 
+}
+
+.progress {
+  height: 17px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  margin-bottom: 30px;
+  overflow: visible;
+  position: relative; 
+}
+
+.progress .progress-bar {
+  background:#327cc0;
+  border-radius: 15px;
+  box-shadow: none;
+  position: relative;
+  animation: animate-positive 2s;
+}
+
+.progress .progress-icon,
+.progress .progress-value {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 40px;
+  background: #fff;
+  border: 7px solid #327cc0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #327cc0;
+  position: absolute;
+  top: -17px;
+  right: -5px; 
+}
+
+.progress .progress-icon {
+  right: auto;
+  left: -5px; 
+}
+
+@-webkit-keyframes animate-positive {
+  0% {
+    width: 0; 
+  } 
+}
+
+@keyframes animate-positive {
+  0% {
+    width: 0; 
+  } 
+}

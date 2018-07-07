@@ -5,10 +5,12 @@
 
 .education {
   padding-bottom: 25px;
+  clear: both;
 }
 
 .experience {
   padding-bottom: 25px;
+  clear: both;
 }
 
 /* Navbar */
@@ -182,4 +184,10 @@ a.anchor {
   0% {
     width: 0; 
   } 
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+      font-size: 24px;
+  }
 }
